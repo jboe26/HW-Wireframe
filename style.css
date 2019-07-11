@@ -1,5 +1,5 @@
  nav { text-align: center; }
  body { background-color: #D3D3D3; }
  header { text-align: center; }
- h1 h2 h3 p { text-align: left; }
+ h1 h2 h3 p { text-align: left; word-wrap: break-word; }
  aside { text-align: right; word-wrap: break-word; }
