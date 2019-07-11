@@ -2,3 +2,4 @@
  body { background-color: #D3D3D3; }
  header { text-align: center; }
  h1 h2 h3 p { text-align: left; }
+ aside { text-align: right; word-wrap: break-word; }
