@@ -8,4 +8,5 @@
     background: #ebebeb }
  h1 h2 h3 p { text-align: left; word-wrap: break-word; background: #ebebeb }
  aside { text-align: right; word-wrap: break-word; }
+ section { width: 495px; }
  footer { text-align: center; background: #ebebeb }
