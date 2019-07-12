@@ -7,6 +7,7 @@
  header { text-align: center;
     background: #ebebeb }
  h1 h2 h3 p { text-align: left;  background: #ebebeb }
- aside { float: right; width: 495px; }
+ aside { text-align: right; 
+    width: 495px; }
  section { width: 495px; float: left; }
  footer { text-align: center; background: #ebebeb }
