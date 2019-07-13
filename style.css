@@ -1,13 +1,32 @@
- nav { text-align: center; background: #ebebeb}
- body { font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777
-    background: #777
+ nav { 
+    text-align: center; 
+    background: #ebebeb;
+      }
+ body { 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
     width: 960px;
-    font-size: 18px; }
- header { text-align: center;
-    background: #ebebeb }
- h1 h2 h3 p { text-align: left;  background: #ebebeb }
- aside { text-align: right; 
+    font-size: 18px; 
+      }
+ header {
+    text-align: center;
+    background: #ebebeb;
+    }
+ h1 h2 h3  { 
+    text-align: left;  
+    background: #ebebeb; }
+ p { 
+    color: #777;
+        
+    background: #ebebeb;    }
+ aside { 
+    text-align: right; 
     width: 495px; }
- section { width: 495px; float: left; }
- footer { text-align: center; background: #ebebeb }
+ section { 
+    width: 495px; 
+    float: left; 
+   }
+ footer { 
+    text-align: center; 
+    background: #ebebeb; }
