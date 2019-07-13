@@ -23,17 +23,24 @@
     }
  aside { 
     text-align: right; 
-    width: 495px; 
+    width: 300px; 
     background: #ebebeb;
     float: right;
     
      }
  section { 
-    width: 495px; 
+    width: 300px; 
     float: left; 
     background: #ebebeb;
     float: left;
    }
+
+   .clearfix::after {
+      content: "";
+      display: block;
+      clear: both;
+   }
  footer { 
     text-align: center; 
-    background: #ebebeb; }
+    background: #ebebeb; 
+   }
