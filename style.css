@@ -24,11 +24,13 @@
  aside { 
     text-align: right; 
     width: 495px; 
+    background: #ebebeb;
     
      }
  section { 
     width: 495px; 
     float: left; 
+    background: #ebebeb;
    }
  footer { 
     text-align: center; 
