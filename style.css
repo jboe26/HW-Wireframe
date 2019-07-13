@@ -22,10 +22,13 @@
     background: #ebebeb;    }
  aside { 
     text-align: right; 
-    width: 495px; }
+    width: 495px; 
+    background: #777;
+      }
  section { 
     width: 495px; 
     float: left; 
+    background: #777;
    }
  footer { 
     text-align: center; 
