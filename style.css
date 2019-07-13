@@ -25,12 +25,14 @@
     text-align: right; 
     width: 495px; 
     background: #ebebeb;
+    float: right;
     
      }
  section { 
     width: 495px; 
     float: left; 
     background: #ebebeb;
+    float: left;
    }
  footer { 
     text-align: center; 
