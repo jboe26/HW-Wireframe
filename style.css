@@ -11,9 +11,9 @@ body {
    text-align: center;
 }
 }
-header {
+section {
    background: #ebebeb;
-   height: 60px;
+   height: 80px;
 }
 p {
    color: #777;
@@ -21,7 +21,8 @@ p {
 }
 .article {
    color: white;
-   background: #777;
+   background-color: #777;
+   width: 300px;
 }
 aside {
    width: 290px;
@@ -38,20 +39,27 @@ section {
 }
 .headers {
    width: 300px;
-   height: 200px;
    background: #666;
    height: 150px;
-   padding: 5%;
    font-weight: bold;
+   align-items: center;
+   position: relative;
+   bottom: 5%;
 }
 .paragraphs {
-   width: 150px;
+   width: 300px;
    background: #666;
-   height: 50px;
-   margin: 50px;
+   height: 0px;
+   /* margin: 50px; */
+   position: relative;
+   top: 15%;
+
+   
 }
 p {
    align-content: center;
+   position: relative;
+   top: 15%;
 }
 /* .clearfix::after {
    content: "";
@@ -59,6 +67,8 @@ p {
    clear: both;
 }
 */
-footer {
+.footer {
    background: #ebebeb;
+   position: fixed;
+   top: 5;
 }
