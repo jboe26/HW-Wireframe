@@ -36,8 +36,8 @@ p {
    color: #ebebeb;
    background-color: #777 ;
    width: 450px;
-   height: 100px;
-   padding: 0;
+   height: 125px;
+   padding: 5px;
    margin-left: 5%;
    padding-left: 5%;
    padding-right: 5%;
@@ -55,20 +55,21 @@ section {
    width: 550px;
    float: left;
    background: #ebebeb;
-   height: 220px;
+   height: 225px;
 }
-/* .headers {
-   background: #fff;
+ .headers {
+   background-color: #ebebeb;
+   color: #777;
    align-items: center;
-   padding-top: 5px;
-   bottom: 5%; 
-   height: 50%; */
+   padding: 10px; 
+   height: 25%; 
 }
-.paragraphs .headers {
-   height: 200px; 
-   background: #fff;
-   /* padding-top: 15px;
-   padding-bottom: 25%; */
+.paragraphs { 
+   background-color: #ebebeb;
+   color: #777;
+   align-items: center;
+   padding-top: 10px; 
+   height: 25%; 
 }
 .clearfix::after {
    content: "";
