@@ -36,6 +36,7 @@ p {
    color: #ebebeb;
    background-color: #777 ;
    width: 450px;
+   height: 190px;
    padding: 0;
    margin-left: 5%;
    padding-left: 5%;
@@ -60,12 +61,13 @@ section {
    background: #fff;
    align-items: center;
    padding-top: 5px;
-   /* positi2on: relative;
-   bottom: 5%; */
+   bottom: 5%; 
+   height: 50%;
 }
 .paragraphs {
    background: #fff;
    padding: 2px;
+   height: 50%;
 }
 p {
    align-content: center;
