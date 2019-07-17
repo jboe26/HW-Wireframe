@@ -36,7 +36,7 @@ p {
    color: #ebebeb;
    background-color: #777 ;
    width: 450px;
-   height: 190px;
+   height: 100px;
    padding: 0;
    margin-left: 5%;
    padding-left: 5%;
@@ -45,7 +45,7 @@ p {
 }
 aside {
    width: 300px;
-   height: 202px;
+   height: 122px;
    background: #ebebeb;
    float: right;
    padding: 5%;
@@ -55,23 +55,20 @@ section {
    width: 550px;
    float: left;
    background: #ebebeb;
-   height: 300px;
+   height: 220px;
 }
-.headers {
+/* .headers {
    background: #fff;
    align-items: center;
    padding-top: 5px;
    bottom: 5%; 
-   height: 50%;
+   height: 50%; */
 }
-.paragraphs {
+.paragraphs .headers {
+   height: 200px; 
    background: #fff;
-   padding: 2px;
-   height: 50%;
-}
-p {
-   align-content: center;
-   
+   /* padding-top: 15px;
+   padding-bottom: 25%; */
 }
 .clearfix::after {
    content: "";
