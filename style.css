@@ -28,9 +28,9 @@ p {
 .article {
    color: #ebebeb;
    background-color: #777;
-   width: 300px;
+   width: 450px;
    padding: 0;
-   margin-left: 20%;
+   margin-left: 5%;
    padding-left: 5%;
    padding-right: 5%;
 }
@@ -49,16 +49,16 @@ section {
    height: 250px;
 }
 .headers {
-   width: 300px;
+   width: 450px;
    background: #777;
-   height: 150px;
+   height: 140px;
    align-items: center;
-   position: relative;
-   bottom: 5%;
+   /* position: relative;
+   bottom: 5%; */
 }
 .paragraphs {
-   width: 300px;
-   background: #666;
+   width: 450px;
+   background: #fff;
    height: 20px;
    /* margin: 50px; */
    
