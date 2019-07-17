@@ -13,6 +13,7 @@ body {
    width: 950px;
    font-size: 18px;
    text-align: center;
+   margin: auto;
 }
 header {
    height: 10px;
@@ -25,18 +26,25 @@ p {
    color: #777;
    background: #ebebeb;
 }
+.box-set {
+   position: relative;
+   width: 960px;
+   z-index: 1;
+   background-color: #777
+}
 .article {
    color: #ebebeb;
-   background-color: #777;
+   background-color: #777 ;
    width: 450px;
    padding: 0;
    margin-left: 5%;
    padding-left: 5%;
    padding-right: 5%;
+   padding-bottom: 5%;
 }
 aside {
-   width: 290px;
-   height: 150px;
+   width: 300px;
+   height: 202px;
    background: #ebebeb;
    float: right;
    padding: 5%;
@@ -46,23 +54,18 @@ section {
    width: 550px;
    float: left;
    background: #ebebeb;
-   height: 250px;
+   height: 300px;
 }
 .headers {
-   width: 450px;
-   background: #777;
-   height: 140px;
+   background: #fff;
    align-items: center;
-   /* position: relative;
+   padding-top: 5px;
+   /* positi2on: relative;
    bottom: 5%; */
 }
 .paragraphs {
-   width: 450px;
    background: #fff;
-   height: 20px;
-   /* margin: 50px; */
-   
- 
+   padding: 2px;
 }
 p {
    align-content: center;
